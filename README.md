@@ -1,5 +1,5 @@
-## FL_AM_Defect-Detection
-Paper for FL  
+## FL IoT Detection
+
 <!--
 [Overleaf URL](https://www.overleaf.com/project/641e11b0b280170c0afd8854)
 
@@ -21,12 +21,12 @@ Paper for FL
 <!--
 <img align="center" src="https://federated.withgoogle.com/assets/comic/panel046.png">
 </img>
-
--->
 <br>
+-->
+
 
 <pre>
-The Federated Learning code is organized within the 'fl_testbed' folder. The file structure adheres to the following schema.
+The Federated Learning code is organized within the 'fl_testbed' folders. The file structure adheres to the following schema.
 </pre>
 <!-- Federated Learning code is contained inside the fl_testbed folder. The file structure follows the shown schema. -->
 
@@ -72,12 +72,12 @@ The Federated Learning code is organized within the 'fl_testbed' folder. The fil
 
 📜centralized.py: Run a deep learning model using a complete dataset.
 
-📜datasplit.py: Builts in two operation modes for data generation 
-(Dirichlet Distribution and manual mode [prefered mode]).
+📜datasplit.py: Builds in two operation modes for data generation 
+(Dirichlet Distribution).
 
 📜federated_client.py: Script for running the federated client.
 
-📜independent.py: This script triggers a deep learning model on a small section
+📜independent.py: Script triggers a deep learning model on a small section
 of the whole dataset.
 
 
@@ -112,6 +112,7 @@ Execution orchestrators labeled as (ex.'server_execution_LSTM_M1.sh') perform th
 4. federated_server.py (Server)
 5. federated_client.py (Clients)
 
+<!--
 
 
 <h2>Server access and pre-execution steps</h2>
@@ -127,6 +128,8 @@ Password: ********
 login: ssh jose@tesla.ise.utk.edu
 Please run: cd FL_AM_Defect-Detection && rm fl_testbed/version2/data/transformed/*
 </pre>
+
+-->
 <!-- 
 <h3>Client 104</h3>
 User: ilab
@@ -154,8 +157,8 @@ Please run: cd FL_AM_Defect-Detection && rm fl_testbed/version2/data/transformed
 
 
 
-<h2>Important:<h2>
-<pre>
+<h2>Important:</h2>
+
 Files should be placed within the following directories. After changing directory to "FL_AM_Defect-Detection" . Please, run:
 
 "mkdir fl_testbed/version2/data/initial"
@@ -168,7 +171,6 @@ combined_angular_misalignment_with_RUL.csv: https://drive.google.com/file/d/12Lv
 combined_offset_misalignment.csv: https://drive.google.com/file/d/1-E5wqPmhtIlsde04fT2WDtzNXx-nufZa/view?usp=sharing
 
 
-</pre>
 
 
 <h2>Parameters Used:</h2>
