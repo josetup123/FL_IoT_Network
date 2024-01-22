@@ -4,6 +4,8 @@ Paper for FL
 <h2>Publication Link</h2>
 <pre>
 
+
+<!--
 [Overleaf URL](https://www.overleaf.com/project/641e11b0b280170c0afd8854)
 
 
@@ -13,12 +15,14 @@ Paper for FL
  ┣ 📂ACM
  ┗ ┗📜main.tex
 
-
+-->
 </pre>
 
-
+<!--
 <img align="center" src="https://federated.withgoogle.com/assets/comic/panel046.png">
 </img>
+
+-->
 <br>
 
 <pre>
@@ -150,9 +154,9 @@ Please run: cd FL_AM_Defect-Detection && rm fl_testbed/version2/data/transformed
 
 
 
-<h3>Important:<h3>
+<h2>Important:<h2>
 <pre>
-It is required for all clients to create 2 directories and place the follwoing files in it. After changing directory to "FL_AM_Defect-Detection" . Please, run:
+Files should be placed within the following directories. After changing directory to "FL_AM_Defect-Detection" . Please, run:
 
 "mkdir fl_testbed/version2/data/initial"
 "mkdir fl_testbed/version2/data/transformed"
@@ -167,7 +171,7 @@ combined_offset_misalignment.csv: https://drive.google.com/file/d/1-E5wqPmhtIlsd
 </pre>
 
 
-<h2>Parameters:</h2>
+<h2>Parameters Used:</h2>
 
 <pre>
 
