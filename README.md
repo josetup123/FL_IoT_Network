@@ -1,12 +1,12 @@
 ## FL_AM_Defect-Detection
 Paper for FL  
+<!--
+[Overleaf URL](https://www.overleaf.com/project/641e11b0b280170c0afd8854)
 
 <h2>Publication Link</h2>
 <pre>
 
 
-<!--
-[Overleaf URL](https://www.overleaf.com/project/641e11b0b280170c0afd8854)
 
 
 📦Overleaf
@@ -14,9 +14,9 @@ Paper for FL
  ┃ ┗ 📜main.tex (to_read)
  ┣ 📂ACM
  ┗ ┗📜main.tex
-
--->
 </pre>
+-->
+
 
 <!--
 <img align="center" src="https://federated.withgoogle.com/assets/comic/panel046.png">
